@@ -2,14 +2,6 @@
 
 if [ $# -ne 3 ]; then
     echo "***************************************************************************************"
-    echo "*                                                                                     *"
-    echo "* Bu script eski rule'lar ile yeni rule'lar arasinda farkli olan rule'lari            *"
-    echo "* belirleyip eskirulefark ve yenirulefark isimli dizinlere tasir. Daha sonra yeni     *"
-    echo "* rule'lari eski rule'lardaki SID degerlerine göre okuyup newrules isimli dizinde     *"
-    echo "* ilgili rule ismindeki dosyaya ekler. Yeni rule’larda eklenen rule varsa onlari da   *"
-    echo "* newrules altindaki ilgili rule dosyasinin sonuna ekler. Bu sayede notepad++'ta      *"
-    echo "* bulunan compare plugin'i ile karsilastirma işlemi yapilabilir.                      *"
-    echo "*                                                                                     *"
     echo "* Rule'lari ve scripti ayni dizine alin. Daha sonra 3 adet arguman girin.             *"
     echo "* Ilki kullanimda olan rule'larin tam yolu, ikincisi yeni rule'larin tam yolu,        *"
     echo "* ucuncusu ise dosyalarin olusturulacagi yol olmali.                                  *"
